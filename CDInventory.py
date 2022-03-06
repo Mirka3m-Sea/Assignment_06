@@ -1,5 +1,5 @@
 #------------------------------------------#
-# Title: Assignment06_Starter.py
+# Title: Assignment06.py
 # Desc: Working with classes and functions.
 # Change Log: (Who, When, What)
 # DBiesinger, 2030-Jan-01, Created File
@@ -179,7 +179,7 @@ while True:
     # 3.2 process load inventory
     if strChoice == 'l':
         print('WARNING: If you continue, all unsaved data will be lost and the Inventory re-loaded from file.')
-        strYesNo = input('type \'yes\' to continue and reload from file. otherwise reload will be canceled')
+        strYesNo = input('type \'yes\' to continue and reload from file. otherwise reload will be canceled \t')
         if strYesNo.lower() == 'yes':
             print('reloading...')
             FileProcessor.read_file(strFileName, lstTbl)
